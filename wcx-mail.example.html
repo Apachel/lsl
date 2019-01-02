@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+ <head>
+  <meta charset="utf-8">
+  <title>Данные формы</title>
+ </head>
+ <body>
+    <p>http://htmlbook.ru/samhtml5/formy/otpravka-dannykh-formy</p>
+    <p>https://learn.javascript.ru/forms-submit</p>
+    <p>https://coder-booster.ru/learning/html-beginners/form-submission-and-button-use</p>
+    <p>https://learn.javascript.ru/forms-submit</p>
+    
+    <p>abc@mailina.co</p>
+   
+     
+    <form id="enterDomain" action="https://www.mohmal.com/ru/create" method="post">
+          
+              
+        <div>
+            
+            <input id="create" class="btn btn-default" type="text" name="name" placeholder="email name-login" value="abc">
+            
+            <select name="domain"> 
+                <option value="mailna.co">abc@mailna.co</option> 
+                <option value="mailna.in">abc@mailna.in</option> 
+                <option value="mailna.me">abc@mailna.me</option> 
+                <option value="mohmal.im">abc@mohmal.im</option> 
+                <option value="mohmal.in">abc@mohmal.in</option>
+            </select>
+            
+            <input id="create" class="btn btn-default" type="submit" value="Создайте">
+        </div>
+    </form>
+    
+    
+    
+    
+     <p>
+        <option value="mailna.biz">abc@mailna.biz</option> 
+        <option value="mohmal.tech">abc@mohmal.tech</option> 
+        <option value="mohmal.com">abc@mohmal.com</option>
+        
+        <p id="choose-form" action="https://www.mohmal.com/js/app.5e96cb4b.js" method="post"></p>  
+            
+        <input type="submit" value="Создайте">
+        
+        <input type="text" name="name" placeholder="abc@mailina.co" form="choose-form">
+        <input type="submit" value="Создайте" formaction="https://www.mohmal.com/ru/create" formmethod="post" form="choose-form">
+    </p>    
+    
+    
+    
+    
+    <form id="choose-form" action="https://www.mohmal.com/ru/create" method="post">
+        <div id="enterEmail" style="display: none;">
+            <div class="form-control">
+                <input type="text" name="name" placeholder="Выберите имя">
+            </div>
+            <div id="next" class="btn btn-default">следующий</div>
+        </div>
+                    
+        <div id="enterEmail" style="display: none;">
+            <div class="form-control">
+                
+                <input type="text" name="name" placeholder="abc@mailina.co">
+                <input type="submit" value="Создайте">
+        
+            </div>
+            
+            <div id="next" class="btn btn-default">следующий</div>
+        </div>
+        
+        <div id="enterDomain" style="display: block;">
+            <div class="form-control">
+                <select name="domain"> 
+                    <option value="mailna.co">abc@mailna.co</option> 
+                    <option value="mailna.in">abc@mailna.in</option> 
+                    <option value="mailna.me">abc@mailna.me</option> 
+                    <option value="mohmal.im">abc@mohmal.im</option> 
+                    <option value="mohmal.in">abc@mohmal.in</option>
+                </select>
+            </div>
+            <div id="create" class="btn btn-default">Создайте</div>
+        </div>  
+              
+        <div>
+            
+            
+            <select name="domain"> 
+                <option value="mailna.co">abc@mailna.co</option> 
+                <option value="mailna.in">abc@mailna.in</option> 
+                <option value="mailna.me">abc@mailna.me</option> 
+                <option value="mohmal.im">abc@mohmal.im</option> 
+                <option value="mohmal.in">abc@mohmal.in</option>
+            </select>
+            
+            <input id="enterDomain" class="btn btn-default" type="submit" value="Создайте enterDomain">
+            
+            <input id="create" class="btn btn-default" type="submit" value="Создайте">
+        </div>
+    </form>
+
+   
+   
+
+
+  <form action="/example/handler.php">
+   <p><input name="login"> <input type="password" name="pass"></p>
+   <p><input type="submit">Создайте</p>
+  </form>
+  
+  <p><iframe name="area" width="500" height="200"></iframe></p>
+  <form action="handler.php" target="area">
+   <p><input placeholder="Введите текст" name="text">
+   <p><input type="submit" value="Отправить"></p>
+  </form>
+  
+ </body>
+</html>
