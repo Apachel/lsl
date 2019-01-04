@@ -250,6 +250,15 @@ echo "$ip\n";
     $dbport = 3306;
     $table = 'host';
 /*
+$servername='sql204.epizy.com'; 
+$username='epiz_23236858'; 
+$password='hA2Q5pQhE*';  // hA2Q5pQhE*
+$database='epiz_23236858_web'; 
+$dbport = 3306;
+$table = 'host';
+*/
+
+/*
     // Create connection
     $db = new mysqli($servername, $username, $password, $database, $dbport);
 
